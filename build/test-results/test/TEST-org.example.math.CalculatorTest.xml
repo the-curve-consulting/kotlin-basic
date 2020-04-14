@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.math.CalculatorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-04-14T20:38:31" hostname="jameslaptop" time="0.022">
+  <properties/>
+  <testcase name="Adding 1 and 2 results in 3()" classname="org.example.math.CalculatorTest" time="0.008"/>
+  <testcase name="Multiplying 12 and 8 gives 96()" classname="org.example.math.CalculatorTest" time="0.002"/>
+  <testcase name="Subtracting 7 from 12 results in 5()" classname="org.example.math.CalculatorTest" time="0.001"/>
+  <testcase name="Summing 3, 5, 7, 9, 11 gives 35()" classname="org.example.math.CalculatorTest" time="0.002"/>
+  <testcase name="Dividing 72 by 6 gives 12()" classname="org.example.math.CalculatorTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
