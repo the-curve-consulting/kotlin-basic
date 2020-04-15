@@ -12,8 +12,9 @@ class StatisticsTest {
     fun setupCalculator() {
         statistics = Statistics()
     }
+
     @Test
-    fun `average returns 6 when 2,3,3,5,7,10 are provided`() {
+    fun averageCalc() {
         assertEquals(5.0, statistics.average(listOf(2.0, 3.0, 3.0, 5.0, 7.0, 10.0)));
     }
 

@@ -14,7 +14,7 @@ class CalculatorTest {
     }
 
     @Test
-    fun `Dividing 72 by 6 gives 12`() {
+    fun divideBy12() {
         assertEquals(12.0, calculator.divide(72.0, 6.0));
     }
 
