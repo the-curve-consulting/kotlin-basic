@@ -1,10 +1,9 @@
 package org.example.math
 
 class Statistics {
-    private val calculator = Calculator()
 
     fun average(values: Collection<Double>): Double {
-        val total = calculator.sum(values)
-        return calculator.divide(total, values.size.toDouble())
+        val total = values.sum()
+        return total / values.size.toDouble();
     }
 }
